@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-std::vector<std::string> split(std::string, const char&);
+std::vector<std::string> split(const std::string&, const char&);
 
 int main()
 {
@@ -14,7 +14,7 @@ int main()
 return 0;
 }
 
-std::vector<std::string> split(std::string str, const char& c)
+std::vector<std::string> split(const std::string& str, const char& c)
 {
     std::string st = "";
     int i = 0;
