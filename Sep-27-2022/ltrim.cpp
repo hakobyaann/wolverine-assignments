@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-std::vector<std::string> ltrim(std::string);
+std::vector<std::string> ltrim(const std::string&);
 
 int main()
 {
@@ -15,7 +15,7 @@ int main()
  return 0;    
 }
 
-std::vector<std::string> ltrim(std::string vec)
+std::vector<std::string> ltrim(const std::string& vec)
 {
     std::string st = "";
     int i = 0;
